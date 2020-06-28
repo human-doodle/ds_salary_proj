@@ -53,6 +53,7 @@ np.mean(cross_val_score(lm, X_train, y_train, scoring='neg_mean_absolute_error',
 
 #lasso regression
 lm_l=Lasso(alpha=0.13)
+lm_l.fit(X_train,y_train)
 np.mean(cross_val_score(lm_l, X_train, y_train, scoring='neg_mean_absolute_error', cv=3))
 
 alpha=[]
@@ -103,3 +104,6 @@ mean_absolute_error(y_test, tpred_lml)
 mean_absolute_error(y_test, tpred_rf)
 
 mean_absolute_error(y_test,(tpred_lm+tpred_rf)/2)
+
+
+#random forest performs the best and lasso performs the worst
