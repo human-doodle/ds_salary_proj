@@ -1,7 +1,6 @@
 # ds_salary_proj
 
-This project is done in the process of learning and understanding data science. I would like to thank Mr. Ken Jee for this amazing series of building a data science project from scratch.
-Playlist : https://www.youtube.com/playlist?list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5O1t
+This project is done in the process of learning and understanding data science.
 
 # Data Science Salary Estimator: Project Overview 
 * Created a tool that estimates data science salaries (MAE ~ $ 11K) to help data scientists negotiate their income when they get a job.
@@ -66,6 +65,9 @@ In this step, I built a flask API endpoint that was hosted on a local webserver 
 **Scraper Github:** https://github.com/arapfaik/scraping-glassdoor-selenium  
 **Scraper Article:** https://towardsdatascience.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905  
 **Flask Productionization:** https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
+
+## Acknowledgment:
+I would like to thank Ken Jee for his valuable videos and guidance.
 
 
 
